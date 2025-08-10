@@ -1,0 +1,50 @@
+
+-------------------------------------INTRODUÇÃO---------------------------------------------------
+
+NARRADOR:
+-Ora,Ora...um cavaleiro solitario,No alto da montanha,á essa hora?
+O que busca,coragem...ou Respostas?
+  Mas já que chegou até aqui...Que tal um vinho fresco,Á luz das velas da taberna? venha entre.
+  As noites são longas... e ás vezes,falam conosco.
+
+OPÇÕES:
+1-sim,claro.Que mal faria?
+(jogador entra)
+2-não,obrigado.prefiro observar as colinas...por enquanto.
+  (passam-se 10 seg,som do vento,talvez um sino distante)
+
+NARRADOR(RETORNA MAIS SÉRIO):
+-Ás vezes, o silêncio nos oferece respostas... mas há perguntas que só a noite pode responder.
+Então,cavaleiro...vai entrar agora?
+
+OPÇÃO:
+1-sim...Estou pronto.
+
+NARRADOR:
+Você empurra a porta.Um aroma de vinho envelhecido,madeira na lareira.E ervas secas preenche o ar.
+O calor do fogo estala na lareira.e apenas um velho sentado ao fundo.parece te olhar...
+mesmo que nunca tenha o visto.
+
+TABERNEIRO:
+-Bem vindo a ultima taberna antes do despertar.
+sete noites,sete Historias...E talvez,sete partes de você mesmo,quer beber..ou conversar primeiro?
+
+OPÇÕES:
+1-Me dê algo forte.Preciso esquecer
+ ( taberneiro:coloca a taça sobre a mesa,sem pressa
+ -todos que chegam aqui querem esquecer...
+ -mas as vezes,o vinho só faz lembrar com mais nitidez.
+
+ Você bebe.O liquido é quente,amargo...e estranho.um peso suave invade seu peito.O mundo parece ficar mais cento.
+ NARRADOR:O velho ao fundo continua te observando,não disse uma palavra.Mas você sente...
+ ele sabe oque você quer esquecer.
+ )
+2-Prefiro conversar.Quem é aquele velho?
+(taberneiro:limpa o balcão sem olhar
+-Ele está aqui há mais tempo do que qualquer um se lembre.
+-nunca disse seu nome.Nunca pediu nada.Só espera.Toda noite.
+)
+
+NARRADOR:Você sente que ja o viu..mas talvez tenha sido em um sonho...
+
+-----------------------------------------------FIM DA INTRODUÇÃO.-------------------------------------------------------
