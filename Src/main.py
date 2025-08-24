@@ -1,20 +1,16 @@
 import time
-import sys
+import os 
+from intro import introducao
+from funções import texto_animado
 
-#Função para texto animado
-def texto_animado(texto):
-   for letra in texto:
-      print(letra, end='')
-      sys.stdout.flush()
-      time.sleep(0.1)
-   print()  
 
 #Função para menu
 def menu():
+    os.system('cls' if os.name == 'nt' else 'clear')  # Limpa a tela
     texto_animado('=== Bem-vindo a 7 noites na taberna ===')
     print('1. Iniciar jogo')
     print('2. Creditos')
-    print('3. Sair')
+    texto_animado('3. Sair')
 
 #Função principal para escolha de opções
 def main():
@@ -22,7 +18,8 @@ def main():
      menu() 
      escolha = input('Escolha uma opcao: ') 
      if escolha == '1':
-        iniciar_jogo()
+        introducao() # Aqui chama a introdução do jogo
+        break
      elif escolha == '2':
         creditos()
      elif escolha =='3':
@@ -30,13 +27,9 @@ def main():
         time.sleep(2) 
         break
      else:
-        print('Opção invalida,tente novamente')  
+        print('Opção invalida, tente novamente')  
         time.sleep(2)
-
-#Função para iniciar o jogo
-def iniciar_jogo():
-   print('Carregando jogo...')
-   time.sleep(5)
+   
 
 #Função para créditos
 def creditos():
