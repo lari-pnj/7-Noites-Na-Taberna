@@ -1,18 +1,21 @@
 import time
 from funções import texto_animado 
 from cap1 import cap1
+import textwrap
 
 
 def introducao():
-    print('==='*20)
-    texto_animado('-----------------------------------------Iniciando....--------------------------------------------')
-    texto_animado("""
--Ora, Ora...um cavaleiro solitario, No alto da montanha,  á essa hora?
- O que busca, coragem...ou Respostas?""")
-    time.sleep(2)
-    texto_animado("""
-Mas já que chegou até aqui...Que tal um vinho fresco, Á luz das velas da taberna? \nvenha entre.
-As noites são longas... e ás vezes, falam conosco.""")
+    print('---'*30)
+    texto_animado('Iniciando....')
+    print('')
+    
+    texto1 = """-Ora, Ora...um cavaleiro solitario, No alto da montanha, á essa hora?
+    O que busca, coragem...ou Respostas?"""
+    texto_animado(textwrap.fill(texto1))
+    
+    texto2 = """Mas já que chegou até aqui...Que tal um vinho fresco, Á luz das velas da taberna? \nvenha entre.
+    As noites são longas... e ás vezes, falam conosco."""
+    texto_animado(textwrap.fill(texto2))
     print('----'*20)
     time.sleep(2)
     
@@ -23,17 +26,20 @@ As noites são longas... e ás vezes, falam conosco.""")
     
     #Jogador escolhe entrar no jogo
     if escolha == '1':
-        print("O jogador aceita o vinho.")
+        print("O jogador aceita o vinho.",end='\n\n')
         cap1()
     #Jogador escolhe esperar     
     else:
         time.sleep(2)
-        print("Som do vento,talvez um sino distante")
-        texto_animado("""
-    -Ás vezes, o silêncio nos oferece respostas... mas há perguntas que só a noite pode responder.
-    Então,cavaleiro...vai entrar agora?""")
+        print('')
+        print("Som do vento,talvez um sino distante",end ='\n\n')
+        
+        texto3 = """-Ás vezes, o silêncio nos oferece respostas... mas há perguntas que só a noite pode responder.
+        Então,cavaleiro...vai entrar agora?"""
+        texto_animado(textwrap.fill(texto3))
         print('----'*20)
         time.sleep(2)
+        
     #Opcao de entrar novamente
         print('1-Entrar na taberna!')
         segunda_escolha=input('Escolha uma opção: ')

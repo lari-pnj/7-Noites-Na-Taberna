@@ -8,6 +8,7 @@ from funções import texto_animado
 def menu():
     os.system('cls' if os.name == 'nt' else 'clear')  # Limpa a tela
     texto_animado('=== Bem-vindo a 7 noites na taberna ===')
+    print('')
     print('1. Iniciar jogo')
     print('2. Creditos')
     texto_animado('3. Sair')
