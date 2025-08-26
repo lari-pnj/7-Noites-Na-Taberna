@@ -8,7 +8,7 @@ from funções import texto_animado
 def menu():
     os.system('cls' if os.name == 'nt' else 'clear')  # Limpa a tela
     print('~=~=~='*20)
-    texto_animado('   ☽✦☾ Bem-vindo a 7 noites na taberna ☽✦☾'.center(60))
+    texto_animado('=~=~=~=~=~= ☽✦☾ Bem-vindo a 7 noites na taberna ☽✦☾~=~=~==~=~='.center(60))
     print('~=~=~='*20)
     print('[1] ➤ Iniciar jogo'.center(50))
     print('[2] ➤ Creditos    '.center(50))

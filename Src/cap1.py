@@ -8,6 +8,7 @@ def cap1():
     print('')
     print('Iniciando....', end="\n\n")
     time.sleep(2)
+    
     #fala narrador
     os.system('cls' if os.name == 'nt' else 'clear')
     texto4 = """Você empurra a porta. Um aroma de vinho envelhecido,E ervas secas preenche o ar. 
@@ -28,6 +29,7 @@ def cap1():
     escolha3 = input("Escolha uma opção: ")
     time.sleep(2)
     os.system('cls' if os.name == 'nt' else 'clear')
+    print('')
     
     if escolha3 == '1':
         print('taberneiro: coloca a taça sobre a mesa, sem pressa')

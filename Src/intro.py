@@ -7,12 +7,13 @@ import os
 
 def introducao():
     print('')
-    texto_animado(' ☽✦☾ Iniciando....  ☽✦☾ ')
+    texto_animado('          ☽✦☾ Iniciando....  ☽✦☾ '.center(50))
     time.sleep(2)
     os.system('cls' if os.name == 'nt' else 'clear')
     print('')
     time.sleep(2)
-    texto_animado('')
+    print('')
+    
     texto1 = """-Ora, Ora...um cavaleiro solitario, No alto da montanha, á essa hora?
     O que busca, coragem...ou Respostas?"""
     texto_animado(textwrap.fill(texto1))
