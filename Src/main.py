@@ -7,11 +7,13 @@ from funções import texto_animado
 #Função para menu
 def menu():
     os.system('cls' if os.name == 'nt' else 'clear')  # Limpa a tela
-    texto_animado('=== Bem-vindo a 7 noites na taberna ===')
+    print('~=~=~='*20)
+    texto_animado('   ☽✦☾ Bem-vindo a 7 noites na taberna ☽✦☾'.center(60))
+    print('~=~=~='*20)
+    print('[1] ➤ Iniciar jogo'.center(50))
+    print('[2] ➤ Creditos    '.center(50))
+    print('[3] ➤ Sair        '.center(50))
     print('')
-    print('1. Iniciar jogo')
-    print('2. Creditos')
-    texto_animado('3. Sair')
 
 #Função principal para escolha de opções
 def main():
@@ -34,11 +36,15 @@ def main():
 
 #Função para créditos
 def creditos():
-   texto_animado('=== Créditos ===')
-   texto_animado('Criado por Larissa valeriano.')
-   texto_animado('2025')
-   texto_animado('Obrigado por jogar!')
-   time.sleep(5)
+   os.system('cls' if os.name == 'nt' else 'clear')
+   texto_animado('=== ☽✦☾  Créditos  ☽✦☾  ==='.center(50))
+   print('')
+   print("""Criado por:Larissa valeriano.""".center(50))
+   print('            Contatos:             '.center(50))
+   print('github:https://github.com/lari-pnj'.center(50))
+   print('Email:Larissavaleriano36@gmail.com'.center(50))
+   print('Obrigado por jogar!               '.center(50))
+   time.sleep(15)
 
 if __name__ == '__main__':
    main()    

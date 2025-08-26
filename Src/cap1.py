@@ -1,32 +1,35 @@
 import time
 from funções import texto_animado
 import textwrap
+import os
 
 def cap1():
-    
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print('')
     print('Iniciando....', end="\n\n")
     time.sleep(2)
     #fala narrador
-    texto4 = """Você empurra a porta. Um aroma de vinho envelhecido, madeira na lareira. E ervas secas preenche o ar. 
+    os.system('cls' if os.name == 'nt' else 'clear')
+    texto4 = """Você empurra a porta. Um aroma de vinho envelhecido,E ervas secas preenche o ar. 
     O calor do fogo estala na lareira. E apenas um velho sentado ao fundo. Parece te olhar...
     mesmo que nunca tenha o visto."""
     texto_animado(textwrap.fill(texto4))
-    time.sleep(2)
-
-    texto5 = """TABERNEIRO:
-    -Bem vindo a ultima taberna antes do despertar.
+    time.sleep(3)
+    
+    os.system('cls' if os.name == 'nt' else 'clear')
+    texto5 = """TABERNEIRO:-Bem vindo a ultima taberna antes do despertar.
     sete noites, sete Historias...E talvez,sete partes de você mesmo,quer beber..ou conversar primeiro?"""
     texto_animado(textwrap.fill(texto5))
     print('')
-    print('===='*20)
     
     #OPÇÕES:
-    print("1-Me dê algo forte. Preciso esquecer")
-    print("2-Prefiro conversar. Quem é aquele velho?")
+    print("[1]➤ Me dê algo forte. Preciso esquecer")
+    print("[2]➤ Prefiro conversar. Quem é aquele velho?")
     escolha3 = input("Escolha uma opção: ")
+    time.sleep(2)
+    os.system('cls' if os.name == 'nt' else 'clear')
     
     if escolha3 == '1':
-        print("-",end='\n\n')
         print('taberneiro: coloca a taça sobre a mesa, sem pressa')
         texto6 = '-todos que chegam aqui querem esquecer...'
         texto_animado(textwrap.fill(texto6))
@@ -43,8 +46,9 @@ def cap1():
          """
         texto_animado(textwrap.fill(texto9))
         print('Você sente que ja o viu..mas talvez tenha sido em um sonho...',end='\n\n')
+        os.system('cls' if os.name == 'nt' else 'clear')
 
-    print('=========================NOITE 1-ARREPENDIMENTO==================================',end='\n\n')
+    print('===☽✦☾ NOITE 1-ARREPENDIMENTO ☽✦☾==='.center(50))
 
     texto10 = """Enquanto o vinho repousa no fundo da taça...algo muda no ar.
     Os ventos da montanha batem contra as janelas da taberna, por um instante,tudo parece suspenso
@@ -52,11 +56,9 @@ def cap1():
     um novo visitante entra.
     """
     texto_animado(textwrap.fill(texto10))
-    
-    texto11 = """sua armadura está arranhada, suja, pesada.
-    o som de metal arrastando ecoa no chão de madeira.
-    Ele senta ao seu lado, pede algo com a mão e bebe.
-    só então fala - voz rouca, pausada.
+
+    texto11 = """sua armadura está arranhada, suja, pesada. o som de metal arrastando ecoa no chão de madeira.
+    Ele senta ao seu lado, pede algo com a mão e bebe. só então fala - voz rouca, pausada.
     SOLDADO:
     -lutei...
     -por algo que eu acreditei ser justo.
@@ -74,10 +76,10 @@ def cap1():
 
     texto_animado("""E você...? - já fez algo que não da pra desfazer?""")
     print('')
-    print("1-Sim.e penso nisso todos os dias.")
-    print("2-Talvez..mas prefiro não lembrar.")
-    print('3-Não.pelo menos,é o que eu gosto de acreditar.',end="\n\n")
-    
+    print("[1]➤ Sim.e penso nisso todos os dias.")
+    print("[2]➤ Talvez..mas prefiro não lembrar.")
+    print("[3]➤ Não.pelo menos,é o que eu gosto de acreditar.",end="\n\n")
+
     escolha3 = input('Escolha uma opção: ')
     if escolha3 == "1":
         print("""SOLDADO:olha para frente,em silêncio por alguns segundos:""")
