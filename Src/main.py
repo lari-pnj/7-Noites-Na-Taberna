@@ -29,7 +29,6 @@ def main():
      menu() 
      escolha = input('Escolha uma opcao: ')
      if escolha == '1':
-        
         introducao() # Aqui chama a introdução do jogo
         break
      elif escolha == '2':
@@ -45,12 +44,32 @@ def main():
    
 #Função para créditos
 def creditos():
-    os.system('cls')
-    print('''Créditos do jogo''')
-
-
-
-
+   os.system('cls')
+   titulo_creditos = '''' 
+      __  ____     ___  ___    ____  ______   ___   _____
+     /  ]|    \   /  _]|   \  |    ||      | /   \ / ___/
+    /  / |  D  ) /  [_ |    \  |  | |      ||     (   \_ 
+   /  /  |    / |    _]|  D  | |  | |_|  |_||  O  |\__  |
+  /   \_ |    \ |   [_ |     | |  |   |  |  |     |/  \ |
+  \     ||  .  \|     ||     | |  |   |  |  |     |\    |
+   \____||__|\_||_____||_____||____|  |__|   \___/  \___|
+                                                            '''
+   for linha in titulo_creditos.splitlines():
+       print(linha.center(90))
+   print('')
+   
+   creditos = [
+    '- Desenvolvedor: Larissa Valleriano',
+    '- Música: ****',
+    '- Imagens: *****',
+    '- Contatos: ',
+    '- Github: https://github.com/lari-pnj',
+    '- Email: Larissavaleriano36@gmail.com'
+   ]
+   for i in creditos:
+       print(i.center(90))
+   print('')    
+   input('Pressione Enter para voltar ao menu principal...')
 
 if __name__ == '__main__':
    main()    
