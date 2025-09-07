@@ -6,45 +6,51 @@ from funções import texto_animado
 
 #Função para menu
 def menu():
-    os.system('cls' if os.name == 'nt' else 'clear')  # Limpa a tela
-    print('~=~=~='*11)
-    texto_animado(f'{ "=~=~=~=~=~= ☽✦☾ Bem-vindo a 7 noites na taberna ☽✦☾ ~=~=~==~=~=".center(40) }')
-    print('~=~=~='*11)
-    print('[1] ➤ Iniciar jogo'.center(50))
-    print('[2] ➤ Creditos    '.center(50))
-    print('[3] ➤ Sair        '.center(50))
-    print('')
+    os.system('cls')  # Limpa a tela
+    titulo = ("""                                                                           
+      _____               _ _                             _        _                           
+     |___  |  _ __   ___ (_) |_ ___  ___    _ __   __ _  | |_ __ _| |__   ___ _ __ _ __   __ _ 
+        / /  | '_ \ / _ \| | __/ _ \/ __|  | '_ \ / _` | | __/ _` | '_ \ / _ \ '__| '_ \ / _` |
+       / /   | | | | (_) | | ||  __/\__ \  | | | | (_| | | || (_| | |_) |  __/ |  | | | | (_| |
+      /_/    |_| |_|\___/|_|\__\___||___/  |_| |_|\__,_|  \__\__,_|_.__/ \___|_|  |_| |_|\__,_|
+      """)
+    print(titulo)
+    print('========='*11)  
+    print('')  
+
+    opcoes = ['[1] ➤  Iniciar jogo', '[2] ➤  Creditos', '[3] ➤  Sair']
+    for linha in opcoes:
+        print(linha.center(90))
+    print('')     
 
 #Função principal para escolha de opções
 def main():
     while True:
      menu() 
-     escolha = input('Escolha uma opcao: ') 
+     escolha = input('Escolha uma opcao: ')
      if escolha == '1':
+        
         introducao() # Aqui chama a introdução do jogo
         break
      elif escolha == '2':
         creditos()
      elif escolha =='3':
+        os.system('cls')
         texto_animado('saindo do jogo...') 
-        time.sleep(2) 
+        time.sleep(4) 
         break
      else:
         print('Opção invalida, tente novamente')  
-        time.sleep(2)
+        time.sleep(2) 
    
-
 #Função para créditos
 def creditos():
-   os.system('cls' if os.name == 'nt' else 'clear')
-   texto_animado('=== ☽✦☾  Créditos  ☽✦☾  ==='.center(50))
-   print('')
-   print("""Criado por:Larissa valeriano.""".center(50))
-   print('            Contatos:             '.center(50))
-   print('github:https://github.com/lari-pnj'.center(50))
-   print('Email:Larissavaleriano36@gmail.com'.center(50))
-   print('Obrigado por jogar!               '.center(50))
-   time.sleep(15)
+    os.system('cls')
+    print('''Créditos do jogo''')
+
+
+
+
 
 if __name__ == '__main__':
    main()    
