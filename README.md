@@ -1,5 +1,10 @@
 # 7 Noites na Taberna
 
+
+![menu do projeto](img/menu%20atual.png)
+
+---
+
 🎮 Um RPG narrativo que roda no terminal e convida à introspecção.
 
 ## ✨ Sobre o Projeto
