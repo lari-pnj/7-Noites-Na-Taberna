@@ -4,9 +4,15 @@ from intro import introducao
 from funções import texto_animado
 
 
+
+#função par limpar a tela do terminal
+def limpar_tela():
+   os.system('cls' if os.name == 'nt' else 'clear')
+
+
 #Função para menu
 def menu():
-    os.system('cls')  # Limpa a tela
+    limpar_tela()
     titulo = ("""                                                                           
       _____               _ _                             _        _                           
      |___  |  _ __   ___ (_) |_ ___  ___    _ __   __ _  | |_ __ _| |__   ___ _ __ _ __   __ _ 
@@ -34,7 +40,7 @@ def main():
      elif escolha == '2':
         creditos()
      elif escolha =='3':
-        os.system('cls')
+        limpar_tela()
         texto_animado('saindo do jogo...') 
         time.sleep(4) 
         break
@@ -44,7 +50,7 @@ def main():
    
 #Função para créditos
 def creditos():
-   os.system('cls')
+   limpar_tela()
    titulo_creditos = '''' 
       __  ____     ___  ___    ____  ______   ___   _____
      /  ]|    \   /  _]|   \  |    ||      | /   \ / ___/
