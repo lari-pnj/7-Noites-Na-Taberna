@@ -17,18 +17,21 @@ def limpar_tela():
    
 #funcao menu de opções   
 
-def menu(opcoes):
+def mostrar_opcoes(opcoes):
+    for opcao in opcoes:
+     print(opcao)
+    print('')
+    
+#Função respostas    
+def perguntar_opcao(pergunta, opcoes_validas):
     while True:
-        limpar_tela()
-        for i, opcao in enumerate(opcoes, start=1):
-            print(f"[{i}] ➤ {opcao}")
-        print("")
+        escolha = input(pergunta).strip()  
+        if escolha in opcoes_validas:
+            return escolha
+        print('Opção invalida, Tente novamente!')
+      
         
-        escolha = input("Escolha uma opção: ").strip()
-        
-        # verifica se a escolha é um número válido
-        if escolha.isdigit() and 1 <= int(escolha) <= len(opcoes):
-            return escolha  # retorna sempre como string
-        else:
-            print("Opção inválida, tente novamente.")
-            time.sleep(2)
+#Função de pausa
+def pausa(segundos=2):
+    time.sleep(segundos)       
+         
