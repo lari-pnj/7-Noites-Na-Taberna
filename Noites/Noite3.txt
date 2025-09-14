@@ -1,30 +1,33 @@
 -----------------------------------NOITE 3-LIBERDADE E ESCOLHAS----------------------------------------------------------
-
-A noite está fria,mas tranquila.pela primeira vez,o (jogador)
+#intro:
+A noite está fria, mas tranquila. pela primeira vez, o (jogador)
 decide não entrar na taberna de imediato.
-ele se encosta no muro de pedra,tira um cigarro do bolso e o acende.
+ele se encosta no muro de pedra, tira um cigarro do bolso e o acende.
 o som do vento é quebrado apenas pelo estalar do fumo queimando.
 
-minutos depois,passos lentos se aproximam.
+#narração1:
+minutos depois, passos lentos se aproximam.
 um homem de aparencia pacifica se senta em uma pedra proxima
-seu olhar é sereno,mas carrega um cansaço antigo.
+seu olhar é sereno, mas carrega um cansaço antigo.
 algemas de ferro pendem frouxas de seus pulsos.
 ele tambem acende um cigarro.
 
-JOGADOR:
--essas algemas...você fugiu de algum lugar?
+#JOGADOR_fala1:
+-Essas algemas...você fugiu de algum lugar?
 
-PRISIONEIRO(SORRINDO LENTAMENTE):
+#Prisioneiro_fala1:
+(SORRINDO LENTAMENTE)
 -engraçado...não
--As portas estavam abertas.eu só fui embora.
--mas,mesmo fora,não me sinto exatamente livre.
+-As portas estavam abertas. Beu só fui embora.
+-mas, mesmo fora, não me sinto exatamente livre.
 
-ele sopra a fumaça para o céu,como quem manda um pensamento embora.
+#narrador2:
+ele sopra a fumaça para o céu, como quem manda um pensamento embora.
 
-JOGADOR:
--entao porque ainda usa isso?
+#JOGADOR_fala2:
+-Entao porque ainda usa isso?
 
-PRISIONEIRO:
+#Prisioneiro_fala2:
 -talvez ainda não tenha saido completamente...
 -ou talvez nunca estive preso de fato.
 -você ja teve a sensação de estar vivendo uma vida que não escolheu?
@@ -32,21 +35,30 @@ PRISIONEIRO:
 como se fossem seus?
 - me diga...você escolheu a vida que vive?
 
-1-sim.cada passo que dei foi por vontade propria.
+#opção1:
+1-sim. Cada passo que dei foi por vontade propria.
+
+#Resposta1:
 -Hm...talvez você seja mais livre do que a maioria.
 mas mesmo escolhas livres carregam consequencias.
 você estaria disposto a perder tudo pelo caminho que escolheu?
 
-2-não sei,As vezes sinto que só fui levando pelos acontecimentos.
--muitos vivem assim...e morrem sem perceber.o conforto
+#opção2:
+2-não sei, As vezes sinto que só fui levando pelos acontecimentos.
+
+#Resposta2:
+-Muitos vivem assim... e morrem sem perceber. o conforto
 da corrente invisivel é que ela não aperta.
 só quando tentamos nos mover é que ela dói.
 
-3-não.mas ainda tenho tempo de escolher deferente.
--Então talvez haja esperança.A liberdade não começa com uma chave.
+#opção3:
+3-Não. Mas ainda tenho tempo de escolher deferente.
+
+#Resposta3:
+-Então talvez haja esperança. A liberdade não começa com uma chave.
 começa com a consequencia de que estamos acorrentados.
 
-NARRADOR:
+#final:
 O cigarro do prisioneiro acaba.ele se levanta devagar.
 antes de ir embora,deixa algo cair no chão uma pequena chave.
 -ela não abre nenhuma porta.mas pode lembrar você de que pode tentar.

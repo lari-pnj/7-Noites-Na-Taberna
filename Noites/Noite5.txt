@@ -1,82 +1,112 @@
 -----------------------------------------------NOITE 5-AMOR PERDIDO/SAUDADE/PERDA---------------------------------------
-
+#intro:
 A noite desce lenta como uma saudade antiga.
 Você entra na taberna, cansado, não de caminhar, mas de sentir.
+
+#intro2:
 O taberneiro limpa o balcão, imerso em seu próprio silêncio.
-de repente,a porta se abre com um rangido conhecido.
-cambaleando,entra um homem com a camisa aberta,um caderno
-amassado sob o braço,e o olhar perdido num lugar que só ele encherga.
+de repente, a porta se abre com um rangido conhecido.
+
+#intro3:
+Cambaleando, Entra um homem com a camisa aberta, Um caderno
+amassado sob o braço, e o olhar perdido num lugar que só ele encherga.
 ele se joga em uma cadeira proxima ao fogo.
 
-POETA:
--O de sempre,companheiro.Que hoje...o coração pesa mais que ontem.
+#Poeta_fala1:
+-O de sempre, companheiro. Que hoje...o coração pesa mais que ontem.
+
+#naracao1:
 O taberneiro serve sem dizer nada.
-O poeta levanta o copo,olha para o cavaleiro,e ergue um brinde no ar.
+O poeta levanta o copo, olha para o cavaleiro, e ergue um brinde no ar.
+
+#Poeta_fala2:
 -Aos que ainda esperam...mesmo sem saber pelo que
 
-toma um gole lento.depois outro.
-fica um tempo em silêncio,olhando o fogo.então,sem virar o rosto
+#naracao2:
+toma um gole lento. depois outro.
+fica um tempo em silêncio, olhando o fogo. então, sem virar o rosto
 
--sabe,rapaz...tem dores que a gente aprende a esconder tão bém
+#Poeta_fala3:
+-sabe, rapaz...tem dores que a gente aprende a esconder tão bém
 que um dia até esquece onde guardou...mas elas continuam lá.
-quietinha,esperando um cheiro,uma música...um nome.
+quietinha, esperando um cheiro, uma música...um nome.
 
-ele abre o caderno com as mãos tremulas.A foha esta suja de vinho.
-começa a ler um poema,mas para na metade.suspira.
+#naracao3:
+Ele abre o caderno com as mãos tremulas. A folha esta suja de vinho.
+começa a ler um poema, mas para na metade. suspira.
 
+#Poeta_fala4:
 -Eu escrevo sobre ela quase toda semana mas nunca termino.
-talvez porque...no fundo,eu nunca quis terminar essa historia.
+talvez porque...no fundo, Eu nunca quis terminar essa historia.
 
-Ele vira para o (jogador),olhos marejados,mas com um sorriso torto:
+#naracao4:
+Ele vira pra Você, olhos marejados, mas com um sorriso torto:
 
+#Poeta_fala5:
 -E você?
 Ja aprendeu a dizer Adeus...pra quem nunca saiu de dentro?
 
-1-sim.mas a saudade ainda acorda comigo.
+#opcao1:
+1-sim. mas a saudade ainda acorda comigo.
+
+#resposta1:
 -Ah...então você entende.
-A saudade não bate á porta,ela mora na casa toda
+A saudade não bate á porta, ela mora na casa toda
 
-2-não.e talvez nunca consiga.
+#opcao2:
+2-Não. E talvez nunca consiga.
+
+#resposta2:
 -Alguns nomes...a gente só aprende a silênciar.
-mas esquecer?isso é mentira que a gente conta pra dormir.
+mas esquecer? isso é mentira que a gente conta pra dormir.
 
+#opcao3:
 3-Acho que ainda to aprendendo.
+
+#resposta3:
 -Aprender é o que resta quando amar já não é possivel.
 que bom que você ainda tenta.
 
-O poeta se levanta devagar,pega uma folha solta do caderno e dobra com cuidado.
+#naracao5:
+O poeta se levanta devagar, pega uma folha solta do caderno e dobra com cuidado.
 ele entrega ao cavaleiro sem olhar nos olhos.
 
-POETA:
--se um dia quiser entender...leia isso.
+#Poeta_fala5:
+-Se um dia quiser entender...leia isso.
 mas só se quiser mesmo.
-ás vezes,guardar também é amar.
+ás vezes, guardar também é amar.
 ele vai até a porta,para por um instante e diz:
 
--nem todo amor é para ser vivido.alguns vêm só pra ensinar a sentir.
+#Poeta_fala6:
+-nem todo amor é para ser vivido. alguns vêm só pra ensinar a sentir.
 e partem...antes de se tornarem prisão
 
-ESCOLHA FINAL:
-Você olha a carta nas mãos.ela está selada com vinho seco.deseja abrir?
+#escolha_final:
+Você olha a carta nas mãos. Ela está selada com vinho seco. deseja abrir?
 
-1-sim,agora.
+#final_opcao1:
+1-Sim, agora.
+
+#Abrir_carta:
 A carta diz:
 "Nem todo amor é pra durar.
 alguns chegam como chuva de verão:
-intensos,inesperados,inesqueciveis.
+intensos, inesperados, inesqueciveis.
 mas se tentarmos segura-los...
 escorrem pelos dedos.
 isso não os torna menos verdadeiros
 só menos permanentes"
 
-2-não,ainda não estou pronto.
+#final_opcao2:
+2-Não, ainda não estou pronto.
 você guarda a carta junto ao peito.
 talvez um dia leia.
 talvez nunca precise.
 mas saber que ela está ali...conforta.
 
-A taberna se esvazia.o taberneiro recolhe os copos.
-e no fogo,uma folha queimada dança no ar.
+#final:
+A taberna se esvazia. o taberneiro recolhe os copos.
+e no fogo, uma folha queimada dança no ar.
 o cavaleiro pensa:
 "talvez amar...seja mesmo aprender a deixar ir"
 

@@ -1,47 +1,72 @@
 ----------------------------------------------NOITE 4-FÉ/INTUIÇÃO/DESTINO---------------------------------------------
-
+#intro:
 O sol se pôs há pouco.
 Você retorna á taberna. Após a noite anterior, ele não entrou
 preferiu o silêncio de casa.
-mas hoje,algo o atraiu de volta.
-A taberna está mais calma que o habitual.O taberneiro limpa alguns
-copos distraido.pouco depois a porta se abre.
-Entra uma mulher de véu branco,olhos leitosos e cajado de madeira.
-ela caminha,e em sua mão,uma cesta coberta com um pano bordado.
+mas hoje, algo o atraiu de volta.
 
-(JOGADOR):
--como será enxergar o mundo sem os olhos?
+#intro2:
+A taberna está mais calma que o habitual. O taberneiro limpa alguns
+copos distraido. pouco depois a porta se abre.
+Entra uma mulher de véu branco, olhos leitosos e cajado de madeira.
+ela caminha, e em sua mão, uma cesta coberta com um pano bordado.
 
-ANDARILHA(ANTES MESMO DELE FALAR):
--Mais leve,ás vezes.
-quando deixamos de ver o que distrai,começamos a notar oque importa.
-ela sorri e se senta perto do fogo. o taberneiro agradece os pães doces que ela trouxe.
+#jogador_fala1:
+-Como será enxergar o mundo sem os olhos?
+
+#Andarilha_fala1:
+(ANTES MESMO DELE FALAR)
+-Mais leve, ás vezes.
+quando deixamos de ver o que distrai, começamos a notar oque importa.
+
+#naracao1:
+ela sorri e se senta perto do fogo.
+
+#naracao2:
+o taberneiro agradece os pães doces que ela trouxe.
 ela não parece surpresa com sua presença.
 
--quando perdi a visão,ainda era criança.No começo,chorei por tudo que não veria mais.
+#Andarilha_fala2:
+-Quando perdi a visão, Ainda era criança. No começo, chorei por tudo que não veria mais.
 mas então...comecei a ver oque os olhos escondem.
--as palavras mudam de cor conforme o tom.os passos contam segredos.
-o silêncio...grita,quando escutamos com o coração.
--Me diga,cavaleiro...quando escuta o mundo,oque ouve primeiro?
+-As palavras mudam de cor conforme o tom. os passos contam segredos.
+o silêncio...grita, quando escutamos com o coração.
+-Me diga, cavaleiro...quando escuta o mundo, oque ouve primeiro?
 
-1-O que grita mais alto.sempre fui guiado pelo que é forte.
--O mundo grita porque tem medo de ser ignorado.mas oque é verdadeiro...quase sempre fala baixo
+#opcao1:
+1-O que grita mais alto. sempre fui guiado pelo que é forte.
 
+#resposta1:
+-O mundo grita porque tem medo de ser ignorado. Mas oque é verdadeiro...quase sempre fala baixo
+
+#opcao2:
 2-Às vezes ouço algo no fundo...mas é dificil confiar.
--A intuição é como um fio de luz na neblina.não é clara...
-mas é certa.
-quem aprende a seguir,raramente se perde.
 
+#resposta2:
+-A intuição é como um fio de luz na neblina. não é clara...
+mas é certa.
+quem aprende a seguir, raramente se perde.
+
+#opcao3:
 3-Eu tento silenciar tudo...para ouvir oque vem de dentro.
+
+#resposta3:
 -Então você ja conheceu o sussuro do destino.
 ele não exige...apenas convida.
 
-A andarilha se levanta,e antes de ir,toca o seu ombro com o cajado.
+#naracao3:
+A andarilha se levanta, e antes de ir, toca o seu ombro com o cajado.
+
+#andarilha_fala3:
 -fé não é certeza
 fé é confiar...mesmo sem ver.
-ela entrega a ele uma pequena fita de pano branco.
--guarde.quando tudo parecer escuro...lembre-se de que você
+
+#naracao4:
+Ela entrega a ele uma pequena fita de pano branco.
+
+#andarilha_fala4:
+-Guarde. Quando tudo parecer escuro... lembre-se de que você
 tem mais olhos do que pensa.
-"A intuição não grita.mas quando falamos com ela...responde"
+"A intuição não grita. mas quando falamos com ela...responde"
 
 ------------------------------------------------FIM 4-NOTE------------------------------------------------------------

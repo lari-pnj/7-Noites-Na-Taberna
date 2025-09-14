@@ -1,79 +1,89 @@
 -------------------------------------Noite 2- Medo e Coragem----------------------------------------------------------
+#Intro:
+A lareira queima mais forte. Um trovão distante. A madeira do teto range.
+O taberneiro serve outra taça, mas não fala nada.
 
-A lareira queima mais forte.um trovão distante.A madeira do teto range.
-O taberneiro serve outra taça,mas não fala nada.
-
-NARRADOR: O medo sussurra.A coragem...se esconde.
-e ás vezes,o mais dificil não é lutar
+#NARRADOR1:
+O medo sussurra. A coragem...se esconde.
+e ás vezes, o mais dificil não é lutar
 é se levantar.
 
-A porta se abre com força. um vento gélido entra.
-o novo visitante surge:um jovem de capa pesada,encharcado de suor mesmo com o frio.
-Ele se ajeita,como se quisesse parecer mais confiante.
-ele olha em volta,seus olhos meio arregalados.
+#Porta_abre:
+A porta se abre com força. Um vento gélido entra.
+o novo visitante surge: Um jovem de capa pesada, encharcado de suor mesmo com o frio.
+Ele se ajeita, como se quisesse parecer mais confiante.
+ele olha em volta, seus olhos meio arregalados.
 Ele se senta perto do (jogador)
 
+#Fala1_visitante:
 -Tá...tá tudo bém aqui né?
 ninguém vai...começar nada do nada certo?
-ele ri de si mesmo.nervoso.
+ele ri de si mesmo. nervoso.
 
-GUERREIRO:
--Porque eu...não to aqui pra brigar,se for isso que ta pensando.
--é só...sei lá.Curiosidade.
-Ele olha pro jogador.vê a espada em sua propria cintura.bate na bainha.
+#Fala2_visitante:
+-Porque eu...não to aqui pra brigar, se for isso que ta pensando.
+-é só...sei lá. Curiosidade.
+Ele olha pro jogador. vê a espada em sua propria cintura. bate na bainha.
 
--eu carrego isso faz anos,acredita?
-nunca usei.nunca precisei.
+#Fala3_visitante:
+-eu carrego isso faz anos, acredita?
+nunca usei. nunca precisei.
 e espero continuar assim.
 ou talvez eu só esteja enrolado mesmo.
 
-ele desvia o olhar.toma um gole de algo que o taberneiro colocou sem perguntar
+#NARRADOR2:
+ele desvia o olhar. toma um gole de algo que o taberneiro colocou sem perguntar
 
-GUERREIRO:
+#Fala3_visitante:
 -Dizem que um dia todo guerreiro encontra sua grande batalha.
 mas...
 e se eu..
 e se eu travar na hora?
 e se eu fracassar?
 
-OPÇÕES:
+#OPÇÕES:
+#opção1:
 1-se você tem tanto medo porque continua carregando essa espada?
 
-GUERREIRO:
+#Resposta_opção1:
 -Porque...sei lá.
 vai que um dia eu preciso.
 e também....
 porque todo mundo espera que eu tenha uma.
 imagina um guerreiro...sem espada?
-eu ia virar piada.já fui,na real.
+eu ia virar piada. já fui,na real.
 
+#opção2:
 2-já pensou que talvez você esteja pronto e nem sabe?
 
-GUERREIRO:
+#Resposta_opção2:
 pronto?
 pronto é quem não acordo suando frio só de ouvir a palavra "confronto"
 mas...
 vai ver é isso mesmo.A gente nunca sabe que tá pronto.
 
+#opção3:
 3-Todo mundo trava.A diferença é oque você faz depois.
 
-GUERREIRO:
-é,isso é meio reconfortante.
+#Resposta_opção3:
+é, isso é meio reconfortante.
 mas...
 se eu travar e correr?
 ai faço oque depois?
-desculpa.tô pensando alto demais,né?
+desculpa. tô pensando alto demais, né?
 é que todos parecem prontos.
 e eu ainda tremo por dentro.
 seilá...as vezes é mais facil imaginar a derrota
 do que arriscar ser derrotado de verdade.
 
+#naração_opção3:
 ele olha pro (jogador) e tenta um sorriso.
 
+#naração2_opção3:
 -boa sorte com as suas batalhas.
 -se descobrir o segredo...me conta.
 
-NARRADOR:
+#Final:
 O medo é barulhento.
 mas as vezes,a coragem...
 é só dar um passo.mesmo que você não saiba pra onde.
