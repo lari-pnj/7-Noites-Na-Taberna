@@ -11,24 +11,24 @@ def cap7():
     print('')
     
     os.system('cls' if os.name =="nt" else "clear")
-    texto="""A taberna,antes cheia de risos,conversas e reflexões,
-    Agora estava quase vazia,as luzes estavam mais suaves,o ar mais denso.
+    texto="""A taberna, antes cheia de risos, conversas e reflexões,
+    Agora estava quase vazia, as luzes estavam mais suaves,o ar mais denso.
     e ele (o jogador) sentiu isso assim que cruzou a porta."""
     texto_animado(textwrap.fill(texto))
     time.sleep(2)
     
     os.system('cls' if os.name =="nt" else "clear")
-    texto1="""Lá no canto,onde todas as noites havia estado,estava o velho.
+    texto1="""Lá no canto, onde todas as noites havia estado, estava o velho.
     O mesmo velho.
-    Sempre ali,calado. com os olhos firmes,mas serenos.era como uma estatua viva
-    Alguém que via tudo,mas nunca dizia nada.
+    Sempre ali, calado. com os olhos firmes, mas serenos. era como uma estatua viva
+    Alguém que via tudo, mas nunca dizia nada.
     mas naquela noite....
     ele falou."""
     texto_animado(textwrap.fill(texto1))
     time.sleep(2)
 
     os.system('cls' if os.name =="nt" else "clear")
-    print("""A voz era grave,mas não rude.Pausada.como se cada palavra fosse lapidada antes de sair.\n\n""")
+    print("""A voz era grave, mas não rude. Pausada. como se cada palavra fosse lapidada antes de sair.\n\n""")
     time.sleep(3)
     
     os.system('cls' if os.name =="nt" else "clear")

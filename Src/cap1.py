@@ -1,8 +1,10 @@
 import time
-from funções import texto_animado , limpar_tela , mostrar_opcoes , perguntar_opcao , pausa
+from funções import *
 import os
+import sys
+import textwrap
 
-
+   
 #funcao chama as opcoes da primeira escollha
 def primeira_escolha():
     escolha1= ["[1]➤ Me dê algo forte. Preciso esquecer","[2]➤ Prefiro conversar. Quem é aquele velho?"]
@@ -26,7 +28,8 @@ def cap1():
     
     #fala narrador
     limpar_tela()
-    texto_animado ("""Você empurra a porta. Um aroma de vinho envelhecido, E ervas secas preenche o ar.\nO calor do fogo estala na lareira. E apenas um velho sentado ao fundo. Parece te olhar...\nmesmo que nunca tenha o visto.""")
+    texto1= """Você empurra a porta. Um aroma de vinho envelhecido, E ervas secas preenche o ar.\nO calor do fogo estala na lareira. E apenas um velho sentado ao fundo. Parece te olhar...\nmesmo que nunca tenha o visto."""
+    texto_animado(textwrap.fill(texto1))
     pausa()
     
     limpar_tela()

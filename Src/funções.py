@@ -2,14 +2,13 @@ import sys
 import time
 import os
 
-
-#Função para texto animado
+#função para texto animado
 def texto_animado(texto):
    for letra in texto:
       print(letra, end='')
       sys.stdout.flush()
       time.sleep(0.1)
-   print()  
+   print()
    
 # funcao para limpar a tela
 def limpar_tela():

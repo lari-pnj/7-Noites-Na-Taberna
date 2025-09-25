@@ -29,7 +29,7 @@ def escolha1():
      elif escolha == '2':
         time.sleep(2)
         limpar_tela()
-        texto_animado("Som do vento,talvez um sino distante\n")
+        texto_animado("Som do vento, talvez um sino distante\n")
         
         texto3 = """-Ás vezes, o silêncio nos oferece respostas... mas há perguntas que só a noite pode responder. Então, cavaleiro...vai entrar agora?"""
         texto_animado(textwrap.fill(texto3))
@@ -77,7 +77,7 @@ def introducao():
 
      
 if __name__ == '__main__':
-    introducao()            
+    introducao()          
             
     
 #-----------------------------------------------FIM DA INTRODUÇÃO-----------------------------------------------------         
